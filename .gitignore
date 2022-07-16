@@ -2,6 +2,8 @@
 /build/
 */archive/
 
+.json
+
 __MACOSX
 .DS_Store
 
