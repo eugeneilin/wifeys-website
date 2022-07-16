@@ -34,67 +34,27 @@ px      68    160    252    344    436    528    620    712    */
     width: 95%;
   }
   /*--
-    blog Start
---*/
-  #blog .block {
-    text-align: center;
-  }
-  #blog .block ul {
-    padding-bottom: 40px;
-  }
-  #blog .block ul li {
-    width: 100%;
-  }
-  #blog .block ul li h3 {
-    padding: 0px 0px 30px;
-  }
-  #blog .block ul li .blog-img {
-    width: 50%;
-  }
-  #blog .block ul li .blog-img img {
-    width: 100%;
-  }
-  #blog .block ul li .blog-img-2 {
-    width: 50%;
-  }
-  #blog .block ul li .blog-img-2 img {
-    width: 100%;
-  }
-  #blog .block ul li .content-left {
-    padding: 40px 20px 0;
-  }
-  #blog .block ul li .content-right {
-    padding: 40px 20px 0;
-  }
-  #blog .block .btn-more-info {
-    float: none;
-    margin-top: 30px;
-  }
-  #blog .block .btn-more-info:hover {
-    border-radius: 10px;
-  }
-  /*--
     price Start
 --*/
-  #price .block p {
+  #menu .block p {
     padding: 30px 0 0;
   }
-  #price .block .pricing-list {
+  #menu .block .pricing-list {
     text-align: left;
   }
   /*--
     contact-us Start
 --*/
-  #contact-us {
+  #order {
     padding: 60px 0 0;
   }
-  #contact-us .block {
+  #order .block {
     text-align: center;
   }
-  #contact-us .block .title {
+  #order .block .title {
     text-align: left;
   }
-  #contact-us .block a {
+  #order .block a {
     padding: 15px 80px;
     float: inherit;
   }
@@ -221,113 +181,36 @@ px      68    160    252    */
     font-size: 25px;
   }
   /*--
-    blog Start
---*/
-  #blog .block ul {
-    padding-bottom: 30px;
-  }
-  #blog .block ul li {
-    float: none;
-    width: 100%;
-    height: 100%;
-  }
-  #blog .block ul li .blog-img {
-    float: none;
-    width: 100%;
-  }
-  #blog .block ul li .blog-img img {
-    width: 100%;
-  }
-  #blog .block ul li .blog-img-2 {
-    float: none;
-    width: 100%;
-  }
-  #blog .block ul li .blog-img-2 img {
-    width: 100%;
-  }
-  #blog .block ul li .content-right {
-    float: none;
-    width: 100%;
-    padding: 20px 35px;
-  }
-  #blog .block ul li .content-right:after {
-    display: none;
-  }
-  #blog .block ul li .content-left {
-    float: none;
-    width: 100%;
-    padding: 20px 35px;
-  }
-  #blog .block ul li .content-left:after {
-    display: none;
-  }
-  #blog .block .btn-more-info {
-    float: none;
-    margin-top: 30px;
-    padding: 28px 85px;
-  }
-  #blog .block .btn-more-info:hover {
-    border-radius: 10px;
-  }
-  /*--
     price Start
 --*/
-  #price .block p {
+  #menu .block p {
     padding: 40px 0px 0px;
   }
-  #price .block .pricing-list {
+  #menu .block .pricing-list {
     text-align: left;
   }
-  #price .block .pricing-list ul li .item {
+  #menu .block .pricing-list ul li .item {
     float: none;
   }
-  #price .block .pricing-list ul li .item .item-title .border-bottom {
+  #menu .block .pricing-list ul li .item .item-title .border-bottom {
     display: none;
   }
-  #price .block .pricing-list ul li .item .item-title span {
+  #menu .block .pricing-list ul li .item .item-title span {
     padding-top: 10px;
     display: block;
     float: none;
   }
-  #price .block .pricing-list .btn {
+  #menu .block .pricing-list .btn {
     float: inherit;
     padding: 28px 100px;
   }
   /*--
-    subscribe Start
---*/
-  #subscribe .block h1 {
-    font-size: 30px;
-  }
-  #subscribe .block h1 span {
-    font-size: 25px;
-  }
-  #subscribe .block form .form-group .input-group {
-    width: 100%;
-  }
-  #subscribe .block form .form-group .input-group .form-control {
-    width: 100%;
-    background: #fff;
-    opacity: 0.9;
-    border: none;
-    height: 65px;
-    border-radius: 0px;
-    float: inherit;
-  }
-  #subscribe .block form .form-group .input-group .input-group-addon {
-    padding: 0px;
-    border: none;
-    background: none;
-    display: block;
-    margin-top: 20px;
-  }
-  /*--
     contact-us Start
 --*/
-  #contact-us {
+  #order {
     padding: 60px 0 0;
   }
-  #contact-us .block a {
+  #order .block a {
     padding: 20px 80px;
     width: 100%;
     float: inherit;
