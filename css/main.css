@@ -75,7 +75,7 @@ a:active {
 }
 .heading span {
   font-size: 45px;
-  color: #ff530a;
+  color: #deb3ad;
   font-weight: 600;
 }
 .heading:before {
@@ -97,7 +97,7 @@ a:active {
   padding: 30px 0px;
 }
 .title span {
-  color: #ff5333;
+  color: #deb3ad;
 }
 .before-border {
   content: '';
@@ -179,7 +179,7 @@ nav .block .navbar-default .navbar-nav > li > a:before {
   width: 0;
 }
 nav .block .navbar-default .navbar-nav > li > a:hover:before {
-  background-color: #e94c3d;
+  background-color: #deb3ad;
   content: '';
   width: 100%;
 }
@@ -200,7 +200,7 @@ nav .block .navbar-default .navbar-nav > li.current > a:before {
   -o-transition: 0.3s all;
   transition: 0.3s all;
   width: 100%;
-  background-color: #e94c3d;
+  background-color: #deb3ad;
 }
 nav .block .navbar-default .navbar-nav > .active > a,
 nav .block .navbar-default .navbar-nav > .active > a:focus,
@@ -215,7 +215,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   bottom: 0px;
   width: 100%;
   height: 2px;
-  background: #ff5333;
+  background: #deb3ad;
 }
 /*--
     slider Start
@@ -240,7 +240,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-bottom: 50px;
 }
 #slider .block .owl-carousel .owl-pagination .active {
-  background: #ff5333;
+  background: #deb3ad;
 }
 #slider .block .owl-carousel .owl-pagination div {
   background: #dadada;
@@ -359,17 +359,15 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #order .block form textarea:focus {
   border: 1px solid #7ec3bb;
 }
-#order .block a {
-  background: #ff4f02;
+#order .block form button {
+  background: #deb3ad;
   float: right;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 0px;
   border: 0px;
-  width: 512px;
-  height: 50px;
-  padding-top: 15px;
+  padding: 15px 180px;
   -webkit-transition: 0.3s all;
   -o-transition: 0.3s all;
   transition: 0.3s all;
@@ -385,7 +383,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-bottom: 25px;
 }
 #footer .block h3 span {
-  color: #ff4f02;
+  color: #deb3ad;
 }
 #footer .block .blog ul,
 #footer .block .info ul,
@@ -404,7 +402,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .gallary ul li h4 {
   padding-bottom: 10px;
   display: block;
-  color: #ff4f02;
+  color: #deb3ad;
 }
 #footer .block .blog ul li h4 i,
 #footer .block .info ul li h4 i,
@@ -416,7 +414,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .blog ul li h4 a,
 #footer .block .info ul li h4 a,
 #footer .block .gallary ul li h4 a {
-  color: #ff4f02;
+  color: #deb3ad;
   font-size: 20px;
   font-weight: 600;
 }
@@ -432,7 +430,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-top: 30px;
 }
 #footer .block .social-media-link h3 span {
-  color: #ff4f02;
+  color: #deb3ad;
 }
 #footer .block .social-media-link ul li {
   display: inline-block;
@@ -453,7 +451,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transition: 0.3s all;
 }
 #footer .block .social-media-link ul li a:hover {
-  background: #ff4f02;
+  background: #deb3ad;
   color: #fff;
 }
 /*--
@@ -472,5 +470,5 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   letter-spacing: 2px;
 }
 #footer-bottom p a {
-  color: #ff4f02;
+  color: #deb3ad;
 }
