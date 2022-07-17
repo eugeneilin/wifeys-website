@@ -39,7 +39,7 @@
 	header-img start 
 	============================== -->
     <section id="hero-area">
-      <img class="img-responsive" src="images/header.jpg" alt="" />
+      <img class="img-responsive" src="images/mac-1.jpeg" alt="" />
     </section>
     <!--
     Header start 
@@ -100,9 +100,12 @@
           <div class="col-md-12">
             <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
               <div class="title">
-                <h3>Featured <span>Works</span></h3>
+                <h3>Latest <span>Works</span></h3>
               </div>
               <div id="owl-example" class="owl-carousel">
+                <div>
+                  <img class="img-responsive" src="images/slider/mac-2.jpg" alt="" />
+                </div>
                 <div>
                   <img class="img-responsive" src="images/slider/slider-img-1.jpg" alt="" />
                 </div>
@@ -290,12 +293,23 @@
           <div class="col-md-12">
             <div class="block">
               <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                Schedule <span>Pick-up</span>
+                <span>Place</span> your <span>Order</span>
               </h1>
               <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                Fill out this form <span>to place an order</span>
+                Fill out this form <span>to schedule a pick-up</span>
               </h3>
-              <form>
+              <form
+                id="form"
+                name="contact"
+                method="POST"
+                netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
+                data-netlify="true"
+              >
+                <input type="hidden" name="subject" value="New Order Placed on Website" />
+                <p class="hidden">
+                  <label> Don't fill this out if you're human: <input name="bot-field" /> </label>
+                </p>
                 <div
                   class="form-group wow fadeInDown"
                   data-wow-duration="500ms"
@@ -306,6 +320,7 @@
                     class="form-control"
                     id="exampleInputEmail1"
                     placeholder="Your name"
+                    required
                   />
                 </div>
                 <div
@@ -313,24 +328,47 @@
                   data-wow-duration="500ms"
                   data-wow-delay="800ms"
                 >
-                  <input type="number" class="form-control" placeholder="Your phone number" />
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Your phone number"
+                    required
+                  />
+                </div>
+                <div
+                  class="form-group wow fadeInDown"
+                  data-wow-duration="500ms"
+                  data-wow-delay="800ms"
+                >
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Number of dozens"
+                    required
+                  />
                 </div>
                 <div
                   class="form-group wow fadeInDown"
                   data-wow-duration="500ms"
                   data-wow-delay="1000ms"
                 >
-                  <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+                  <textarea
+                    class="form-control"
+                    rows="3"
+                    placeholder="Any additional details"
+                  ></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
+                <button
+                  type="submit"
+                  class="btn btn-default wow bounceIn"
+                  data-wow-duration="500ms"
+                  data-wow-delay="1300ms"
+                  id="submit"
+                >
+                  Place order
+                </button>
               </form>
-              <a
-                class="btn btn-default wow bounceIn"
-                data-wow-duration="500ms"
-                data-wow-delay="1300ms"
-                href="#"
-                role="button"
-                >send your message</a
-              >
             </div>
           </div>
           <!-- .col-md-12 close -->
